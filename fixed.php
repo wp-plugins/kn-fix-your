@@ -1,0 +1,1 @@
+<title><?php if(is_front_page()) {bloginfo('name');echo " " . $separator . " ";bloginfo('description');}else { wp_title($separator,true,'right').bloginfo('name');} ?></title>
